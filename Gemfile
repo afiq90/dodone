@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#Font Awesome Gem
+gem 'font-awesome-rails'
 #Twitter bootstrap
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
