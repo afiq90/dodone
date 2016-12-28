@@ -1,4 +1,8 @@
-<h1>Hello, Name!</h1>
+<% if current_user %>
+<h1>Hello, <%= current_user.email%>!</h1>
+<% else %>
+<h1>Hello Mamba!</h1>
+<% end %>
 <div class="jumbotron">
 	<h1><i class="fa fa-check-circle-o">DoDONE</h1>
 	<p>This is my smart To Do app, made with Ruby on Rails</p>
