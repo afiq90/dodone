@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#auto_html
+gem 'auto_html', '~> 1.6'
 #devise
 gem 'devise'
 #simple form
